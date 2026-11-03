@@ -38,10 +38,11 @@ Sysmonitor.core_count                   # число ядер
 
 ## Установка
 
-В Gemfile:
+Гемы публикуются только на GitHub (не на RubyGems), поэтому в Gemfile —
+git-источник:
 
 ```ruby
-gem "sysmonitor"
+gem "sysmonitor", git: "https://github.com/OrelSokolov/sysmonitor.git"
 ```
 
 ## Разработка
